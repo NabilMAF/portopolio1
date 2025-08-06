@@ -1,0 +1,254 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.Hero {
+  background: lightslategray;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 100px 150px;
+}
+
+.Hero-picture img {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  box-shadow: 0px 2px 4px;
+}
+
+.ph {
+  background: white;
+  display: flex;
+  gap: 30px;
+  padding: 100px 150px;
+}
+
+.ph1 {
+  background: white;
+  display: flex;
+  gap: 30px;
+  padding: 100px 150px;
+}
+
+.sekolah {
+  border-radius: 20px;
+  width: 500px;
+  height: auto;
+  box-shadow: 0px 2px 4px;
+  background-color: aquamarine;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.sekolah:hover {
+    transform: scale(1.1);
+}
+
+.sd {
+  border-radius: 20px;
+  width: 500px;
+  height: auto;
+  box-shadow: 0px 2px 4px;
+  background-color: peachpuff;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.sd:hover {
+    transform: scale(1.1);
+}
+
+.skill {
+  border-radius: 20px;
+  width: 500px;
+  height: auto;
+  box-shadow: 0px 2px 4px;
+  background-color: peachpuff;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+.pengalaman {
+  border-radius: 20px;
+  width: 500px;
+  height: auto;
+  box-shadow: 0px 2px 4px;
+  background-color: aquamarine;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.pengalaman:hover {
+    transform: scale(1.1);
+}
+
+.alamat {
+  border-radius: 20px;
+  width: 500px;
+  height: auto;
+  box-shadow: 0px 2px 4px;
+  background-color: aquamarine;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.alamat:hover {
+  transform: scale(1.1);
+}
+
+.contact {
+  border-radius: 20px;
+  width: 500px;
+  height: auto;
+  box-shadow: 0px 2px 4px;
+  background-color: peachpuff;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.contact:hover {
+  transform: scale(1.1);
+}
+
+.asal-sekolah {
+  margin: 100px;
+  display: flex;
+}
+
+.riwayat-pendidikan {
+  width: 50%;
+}
+
+.riwayat-pendidikan {
+  border-left: 3px solid #545454;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.riwayat-pendidikan p {
+  margin: 0;
+}
+
+.pembuat {
+  margin: 100px;
+  display: flex;
+}
+
+.anggota {
+  width: 50%;
+}
+
+.anggota {
+  border-left: 3px solid #545454;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.anggota p {
+  margin: 0;
+}
+
+.Hero-desc button {
+  padding: 10px 20px;
+  background: lightblue;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+
+.btn {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.about {
+  margin: 100px;
+  background-color: aquamarine;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.about h2 {
+  margin-top: 0;
+}
+
+.about p {
+  margin-bottom: 0;
+}
+/* untuk responsive hp */
+@media screen and (max-width: 900px) {
+  .Hero {
+    display: block;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .Hero-picture img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+
+  .Hero-desc button {
+    width: 100%;
+  }
+
+  .ph, .ph1 {
+    display: block;
+    padding: 50px 20px;
+  }
+
+  .sekolah, .sd, .pengalaman, .skill, .alamat, .contact {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .asal-sekolah, .pembuat {
+    display: block;
+    margin: 50px 20px;
+  }
+
+  .riwayat-pendidikan, .anggota {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .about {
+    margin: 50px 20px;
+    padding: 20px;
+  }
+
+  .Hero-desc h1, .Hero-desc h2 {
+    margin: 10px 0;
+  }
+
+  .footer {
+    padding: 10px;
+    font-size: 12px;
+  }
+}
+
+
+.footer {
+  background-color: lightslategray;
+  color: aliceblue;
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
+}
