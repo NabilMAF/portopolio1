@@ -1,0 +1,137 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.hero1 {
+  background: lightslategray;
+  display: flex;
+  gap: 30px;
+  padding: 100px 150px;
+  align-items: center;
+}
+
+.desc-picture img {
+  border-radius: 10%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0px 2px 4px;
+}
+
+.desc button {
+    padding: 10px 20px;
+    background: lightblue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+  .btn {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+
+  .btn:hover {
+    transform: scale(1.1); 
+  }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container {
+  width: 80%;
+  background-color: #ddd;
+  margin: 10px auto;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px;
+  background-color: aquamarine;
+}
+
+.skill {
+  text-align: right;
+  padding: 10px;
+  color: white;
+  transition: width 1s ease-in-out;
+}
+
+.skill-html {
+  width: 0;
+  background-color: rgb(75, 255, 47);
+  animation: html-animation 2s ease-out forwards;
+}
+
+.skill-css {
+  width: 0;
+  background-color: rgb(0, 149, 255);
+  animation: css-animation 2s ease-out forwards;
+}
+
+.skill-js {
+  width: 0;
+  background-color: rgb(254, 3, 3);
+  animation: js-animation 2s ease-out forwards;
+}
+
+.skill-php {
+  width: 0;
+  background-color: darkslategrey;
+  animation: php-animation 2s ease-out forwards;
+}
+
+@keyframes html-animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css-animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes js-animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 25%;
+  }
+}
+
+@keyframes php-animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+.footer {
+    background-color: lightslategray;
+    color: aliceblue;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
